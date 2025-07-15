@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "name": "Ngôn ngữ lập trình",
+      "skills": [
+        { "name": "Python", "highlight": true, "icon": "python" },
+        { "name": "JavaScript / TypeScript", "highlight": true, "icon": "js" },
+        { "name": "PHP", "highlight": false, "icon": "php" },
+        // Thêm C, C++, C#, Go, HTML, CSS...
+      ]
+    },
+    {
+      "name": "Frameworks & Thư viện",
+      "skills": [
+        { "name": "React", "highlight": true, "icon": "react" },
+        { "name": "Next.js", "highlight": true, "icon": "nextjs" },
+        { "name": "Tailwind CSS", "highlight": true, "icon": "tailwind" },
+        { "name": "Bootstrap 5" },
+        { "name": "Laravel" },
+        { "name": "Node.js" }, // Có thể xếp vào đây hoặc Language/Runtime
+        { "name": "Java" } // Có thể xếp vào đây hoặc Language/Runtime
+        // Thêm các framework khác...
+      ]
+    },
+     {
+      "name": "Cơ sở dữ liệu",
+      "skills": [
+        { "name": "MongoDB", "icon": "mongodb" },
+        { "name": "MySQL", "icon": "mysql" }
+      ]
+    },
+    {
+       "name": "Công cụ & DevOps",
+       "skills": [
+         { "name": "Docker", "highlight": true, "icon": "docker" },
+         { "name": "GitHub", "highlight": true, "icon": "githubactions" },
+         // Thêm các công cụ đề xuất: Jest, Cypress, ESLint, Prettier...
+       ]
+    },
+    {
+       "name": "Nền tảng Cloud",
+       "skills": [
+         { "name": "Vercel" }, // Các nền tảng bạn sẽ dùng hoặc đã tìm hiểu
+         { "name": "Netlify" },
+         { "name": "Google Cloud Run" } // (Nếu có tìm hiểu)
+         // Thêm AWS S3, Lambda, GCP Storage... (Nếu có tìm hiểu)
+       ]
+    },
+    {
+       "name": "Phương pháp làm việc",
+       "skills": [
+         { "name": "Agile / Scrum" }, // (Nếu có kinh nghiệm thực tế)
+         { "name": "SDLC (Phân tích, Thiết kế, Code, Test, Bảo trì)" }
+       ]
+    }
+    // Thêm các loại khác nếu cần
+  ]
+}

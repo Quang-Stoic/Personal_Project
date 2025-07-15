@@ -1,0 +1,38 @@
+[
+  {
+    "companyName": "Tên Công Ty A",
+    "title": "Vị trí của bạn tại A (e.g., Senior Software Engineer)",
+    "period": "Tháng YYYY - Tháng YYYY", // Hoặc "Tháng YYYY - Hiện tại"
+    "companyDescription": "Mô tả ngắn về công ty A hoặc đội ngũ.",
+    "responsibilities": [
+      {
+        "description": "Chi tiết trách nhiệm hoặc dự án 1 (dạng Markdown hoặc chuỗi)", // Mô tả
+        "role": "Vai trò của bạn (e.g., Tech Lead, Contributor, Architect)", // Rất quan trọng!
+        "technologies": ["React", "Node.js", "MongoDB", "AWS Lambda"], // Tech stack sử dụng trong task/project này
+        "impact": "Kết quả/Tác động 1 (dạng Markdown hoặc chuỗi)", // Có số liệu thì càng tốt (ví dụ: Tăng 20% hiệu suất, giảm 15% chi phí)
+        "learnings": "Bài học kinh nghiệm (Tùy chọn)"
+      },
+       {
+        "description": "Chi tiết trách nhiệm hoặc dự án 2...",
+        "role": "...",
+        "technologies": ["Python", "Django", "MySQL"],
+        "impact": "..."
+      }
+       // Thêm các responsibility/project khác trong công ty này
+    ],
+    "achievements": [
+      "Thành tựu 1 (e.g., Nhận giải thưởng Nhân viên xuất sắc tháng X)",
+      "Thành tựu 2..."
+    ]
+  },
+   {
+    "companyName": "Tên Công Ty B",
+    "title": "Vị trí tại B",
+    "period": "...",
+    "companyDescription": "...",
+    "responsibilities": [
+     // Các trách nhiệm/dự án tại công ty B
+    ]
+  }
+  // Thêm các công ty khác theo thứ tự thời gian (thường là mới nhất lên đầu)
+]

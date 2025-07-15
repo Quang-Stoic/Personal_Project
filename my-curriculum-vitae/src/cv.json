@@ -1,0 +1,69 @@
+{
+  "personalInfo": {
+    "name": "Nguyễn Thanh Quang",
+    "title": "Software Engineer | Software Architect", // Có thể nhiều chức danh
+    "summary": "short-summary.md", // Tham chiếu đến file Markdown hoặc điền thẳng chuỗi ngắn ở đây
+    "photoUrl": "/images/my-photo.jpg", // Đường dẫn tương đối đến ảnh
+    "location": "Vietnam", // Có thể chi tiết hơn
+    "email": "nguyenthanhquang.stoic@gmail.com",
+    "phone": "obfuscated", // Giá trị placeholder, JS sẽ hiển thị hoặc làm mờ
+    "socialLinks": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/quang-nguy%E1%BB%85n-984505372/",
+        "icon": "linkedin" // Tên icon (ví dụ: từ thư viện React Icons)
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/Quang-Stoic",
+        "icon": "github"
+      }
+      // Thêm các link khác: Twitter, website cá nhân...
+    ],
+    "githubStatsUrl": "https://api.github.com/users/Quang-Stoic" // (Tùy chọn) Để fetch động hoặc tại build time nếu muốn hiển thị stat GitHub
+  },
+  "sections": [
+    // Danh sách các section hiển thị trên CV theo thứ tự
+    {
+      "id": "about",
+      "title": "Giới thiệu bản thân",
+      "type": "markdown", // Nội dung lấy từ markdown
+      "contentRef": "sections/about.md" // File markdown chi tiết
+    },
+    {
+      "id": "skills",
+      "title": "Kỹ năng",
+      "type": "skills", // Nội dung cấu trúc dạng list kỹ năng
+      "dataRef": "data/skills.json" // File JSON riêng cho list kỹ năng
+    },
+    {
+      "id": "experience",
+      "title": "Kinh nghiệm làm việc",
+      "type": "experience", // Nội dung cấu trúc dạng list kinh nghiệm
+      "dataRef": "data/experience.json" // File JSON riêng cho list kinh nghiệm
+    },
+    {
+      "id": "projects",
+      "title": "Dự án cá nhân & Nguồn mở",
+      "type": "projects", // Nội dung cấu trúc dạng list dự án
+      "dataRef": "data/projects.json" // File JSON riêng cho list dự án
+    },
+    {
+      "id": "education",
+      "title": "Học vấn",
+      "type": "education", // Nội dung cấu trúc dạng list học vấn
+      "dataRef": "data/education.json" // File JSON riêng cho list học vấn
+    },
+    {
+      "id": "otherActivities",
+      "title": "Hoạt động khác",
+      "type": "other", // Nội dung cấu trúc dạng list các hoạt động khác
+      "dataRef": "data/other.json" // File JSON riêng cho list hoạt động
+    }
+    // Có thể thêm section "Liên hệ" (form hoặc chỉ hướng dẫn liên hệ), Blog...
+  ],
+  "footer": {
+    "copyright": "© 2023 Nguyễn Thanh Quang. Built with Next.js and ❤️"
+    // Các link footer khác...
+  }
+}

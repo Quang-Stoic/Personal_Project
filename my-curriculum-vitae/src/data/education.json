@@ -1,0 +1,10 @@
+[
+  {
+    "institution": "VTC Academy",
+    "degree": "Chứng chỉ / Khóa học chuyên sâu", // Hoặc Bằng cử nhân, Thạc sĩ...
+    "fieldOfStudy": "Phát triển phần mềm",
+    "period": "Năm YYYY - Năm YYYY",
+    "details": "Các môn học nổi bật, GPA (tùy chọn), đồ án..." // Markdown
+  }
+  // Thêm các học vấn khác
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Tên Dự Án Cá Nhân A",
+    "description": "Mô tả chi tiết về dự án A (dạng Markdown). Mục tiêu, các tính năng chính...",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS"], // Tech stack của dự án này
+    "githubUrl": "https://github.com/Quang-Stoic/my-project-a",
+    "demoUrl": "https://my-project-a.vercel.app/", // Link demo đang chạy
+    "image": "/images/project-a-screenshot.jpg", // Ảnh minh họa
+    "status": "Hoàn thành", // "Đang phát triển", "Đã dừng"
+    "stats": [
+      {"type": "star", "value": "150"}, // Ví dụ stat GitHub
+      {"type": "users", "value": "1000+", "label": "Người dùng"}
+    ]
+  },
+   {
+    "name": "Tên Đóng Góp Nguồn Mở B",
+    "description": "Mô tả về đóng góp của bạn cho thư viện/framework B (dạng Markdown). Vấn đề giải quyết, Pull Request liên quan...",
+    "technologies": ["React", "Webpack"],
+    "githubUrl": "https://github.com/tên-repo/B/pull/1234", // Link trực tiếp đến PR/Issue nếu có
+    "status": "Đã merge",
+    "stats": []
+  }
+  // Thêm các dự án/đóng góp khác
+]

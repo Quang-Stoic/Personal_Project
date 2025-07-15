@@ -1,0 +1,24 @@
+[
+  {
+    "type": "Blog Post",
+    "title": "Tiêu đề bài viết 1: Chủ đề X",
+    "link": "https://your-blog.com/post/1",
+    "date": "YYYY-MM-DD",
+    "icon": "article"
+  },
+  {
+    "type": "Talk",
+    "title": "Bài nói tại Meetup A: Công nghệ Y",
+    "link": "https://slides.com/your-presentation", // Link slides/video
+     "date": "YYYY-MM-DD",
+     "icon": "mic"
+  },
+   {
+    "type": "Certification",
+    "title": "Chứng chỉ AWS Certified Cloud Practitioner",
+    "link": "https://verify.link/to/certificate", // Link verification
+    "issueDate": "YYYY-MM-DD",
+     "icon": "certificate"
+  }
+  // Thêm các hoạt động khác: Hoạt động cộng đồng, giải thưởng khác, sở thích kỹ thuật...
+]
